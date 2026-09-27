@@ -31,8 +31,7 @@ def extract_table_full(table_name: str) -> str:
     table_dir = os.path.join(RAW_DATA_DIR, table_name)
     os.makedirs(table_dir, exist_ok=True)
 
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    file_path = os.path.join(table_dir, f"{table_name}_{timestamp}.csv")
+    file_path = os.path.join(table_dir, f"{table_name}_latest.csv")
 
     with open(file_path, "w", newline="") as f:
         writer = csv.writer(f)

@@ -5,7 +5,7 @@ from datetime import datetime
 
 import pandas as pd
 
-DIRTY_DIR = "data/raw/transactions_dirty"
+DIRTY_DIR = "data/raw/transactions_incremental"
 CLEAN_DIR = "data/processed/transactions_clean"
 QUARANTINE_DIR = "data/processed/transactions_quarantine"
 
