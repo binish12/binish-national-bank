@@ -51,3 +51,4 @@ src/
 Milestones 0–4 complete (environment, database + synthetic data,
 ingestion, Pandas cleaning, local ETL pipeline). Currently working toward
 S3, PySpark, Redshift, Kafka, Airflow, and CI/CD.
+Current focus: Milestone 5 (main version)
