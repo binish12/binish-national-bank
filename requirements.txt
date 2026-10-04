@@ -4,3 +4,4 @@ psycopg2-binary==2.9.12
 pandas==2.3.3
 numpy==2.0.2
 pytest==8.4.2
+boto3==1.42.97
