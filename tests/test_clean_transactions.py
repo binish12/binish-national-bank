@@ -1,4 +1,4 @@
-from src.transformation.clean_transactions import clean_amount, clean_transaction_type
+from src.transformation.cleaning_rules import clean_amount, clean_transaction_type
 
 
 def test_clean_amount_valid_float():
